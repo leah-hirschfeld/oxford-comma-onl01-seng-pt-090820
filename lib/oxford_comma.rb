@@ -10,5 +10,6 @@ else array.each_with_index do |i, index|
     array[index] = "and " + i
   end
 end
+  array.join
 end
 end
