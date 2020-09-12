@@ -1,5 +1,4 @@
 def oxford_comma(array)
-string = ""
 if array.length == 1
   array.join("")
 elsif array.length == 2 
@@ -11,6 +10,5 @@ else array.each_with_index do |i, index|
     array[index] = "and " + i
   end
 end
-  array.join
 end
 end
